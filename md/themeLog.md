@@ -42,11 +42,24 @@ git add . && git commit -m "Insert (data files #0011)"
 - Realizamos correcciones de idioma
 
 ````
-git add . && git commit -m "Insert (Content files #0012)"
+git add . && git commit -m "Insert (content files #0012)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
-<!--  Theme ──────────────────────── -->
+<!--  Pages ─────────────────────────── -->
+
+## Pages
+
+- Copiamos archivos en la carpeta pages
+
+- Realizamos correcciones de idioma
+
+````
+git add . && git commit -m "Insert (pages files #0013)"
+````
+
+<!--  // ─────────────────────────────────────────────────────────────── -->
+<!--  Theme ─────────────────────────── -->
 
 ## Theme
 
