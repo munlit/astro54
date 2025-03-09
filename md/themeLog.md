@@ -46,7 +46,7 @@ git add . && git commit -m "Insert (content files #0012)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
-<!--  Pages ─────────────────────────── -->
+<!--  Pages ──────────────────────────── -->
 
 ## Pages
 
@@ -72,6 +72,19 @@ git add . && git commit -m "Insert (layout file #0014)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
+<!--  Components ─────────────────────── -->
+
+## Components
+
+- Copiamos archivos en la carpeta components
+
+- Realizamos correcciones de idioma
+
+````
+git add . && git commit -m "Insert (components files #0015)"
+````
+
+<!--  // ─────────────────────────────────────────────────────────────── -->
 <!--  Theme ─────────────────────────── -->
 
 ## Theme
@@ -81,7 +94,7 @@ git add . && git commit -m "Insert (layout file #0014)"
 - Realizamos correcciones menores para igualar la visualizacion
 
 ````
-git add . && git commit -m "[Theme] (#0012)"
+git add . && git commit -m "[Theme] (#0016)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
