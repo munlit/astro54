@@ -59,6 +59,19 @@ git add . && git commit -m "Insert (pages files #0013)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
+<!--  Layout ─────────────────────────── -->
+
+## Layout
+
+- Copiamos archivos en la carpeta layout
+
+- Realizamos correcciones de idioma
+
+````
+git add . && git commit -m "Insert (layout file #0014)"
+````
+
+<!--  // ─────────────────────────────────────────────────────────────── -->
 <!--  Theme ─────────────────────────── -->
 
 ## Theme
