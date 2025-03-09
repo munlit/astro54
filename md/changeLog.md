@@ -13,17 +13,17 @@
 
 - Opciones de instalacion elegidas
 
-  * Where should we create your new project?
-    astro54
+	* Where should we create your new project?
+		astro54
 
-  * How would you like to start your new project?
-    A basic, minimal starter
+	* How would you like to start your new project?
+		A basic, minimal starter
 
-  * Install dependencies?
-    yes
+	* Install dependencies?
+		yes
 
-  * Initialize a new git repository?
-    yes
+	* Initialize a new git repository?
+		yes
 
 ````
 pnpm create astro@latest
@@ -53,13 +53,13 @@ git add . && git commit -m "Add (md #002)"
 - Requerimos dependencias de react
 
 - Astro will run the following command:
-  * continue ?  (yes/no) yes
+	* continue ?  (yes/no) yes
 
 - Astro will make the following changes to your config file:
-  * continue ?  (yes/no) yes
+	* continue ?  (yes/no) yes
 
 - Astro will make the following changes to your tsconfig.json:
-  * continue ?  (yes/no) yes
+	* continue ?  (yes/no) yes
 
 ````
 pnpm astro add react
@@ -79,10 +79,10 @@ git add . && git commit -m "Require (react #003)"
 - Requerimos dependencias de tailwind
 
 - Astro will scaffold ./src/styles/global.css.
-  * continue ?  (yes/no) yes
+	* continue ?  (yes/no) yes
 
 - Astro will make the following changes to your config file:
-  * continue ?  (yes/no) yes
+	* continue ?  (yes/no) yes
 
 - Vinculamos el site con tailwind 
 
@@ -242,10 +242,91 @@ git add . && git commit -m "Require (xtras theme #008)"
 ## Personalizar
 
 - Editamos los archivos de configuracion de typescript (tsconfig.json)
+
+{
+	"extends": "astro/tsconfigs/strict",
+	"include": [
+		".astro/types.d.ts",
+		"**/*"
+	],
+	"exclude": [
+		"dist"
+	],
+	"compilerOptions": {
+		"jsx"				:	"react-jsx",
+
+		"jsxImportSource"	:	"react",
+
+		"baseUrl"			:	"src",
+		// "baseUrl"		:	".",
+
+		"paths": {
+			"@/*"			:	["./src/*"],
+
+			"@global/*"		:	["global/*"],
+
+			"@lib/*"		:	["lib/*"],
+
+			"@utils/*"		:	["utils/*"],
+
+			"@components/*"	:	["components/*"],
+
+			"@containers/*"	:	["containers/*"],
+
+			"@content/*"	:	["content/*"],
+
+			"@data/*"		:	["data/*"],
+
+			"@layouts/*"	:	["layouts/*"],
+
+			"@styles/*"		:	["styles/*"],
+
+			"@scripts/*"	:	["scripts/*"],
+
+			"@assets/*"		:	["assets/*"],
+
+			"@images/*"		:	["assets/images/*"],
+
+			"@icons/*"		:	["assets/icons/*"],
+
+			"@pages/*"		:	["pages/*"],
+
+		}
+	}
+}
+
+
 - Editamos los archivos de configuracion de astro (astro.config.mjs)
 
+// @ts-check
+import { defineConfig } from 'astro/config';
+
+import react from '@astrojs/react';
+
+import tailwindcss from '@tailwindcss/vite';
+
+import sitemap from "@astrojs/sitemap";
+
+import compressor from "astro-compressor";
+
+import starlight from "@astrojs/starlight";
+
+import mdx from "@astrojs/mdx";
+
+// https://astro.build/config
+export default defineConfig({
+	integrations: [
+		react(),
+		mdx()
+	],
+
+	vite: {
+		plugins: [tailwindcss()]
+	}
+});
+
 ````
-git add . && git commit -m "Customized (tsconfig #009)"
+git add . && git commit -m "Customized (tsconfig astro.config #009)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
@@ -256,9 +337,9 @@ git add . && git commit -m "Customized (tsconfig #009)"
 - Vinculamos con github
 - Push repositorio
 
-  * Containers
-  * Components/Footer
-  * Components/Header
+	* Containers
+	* Components/Footer
+	* Components/Header
 
 ````
 git remote add origin https://github.com/munlit/astro54.git
