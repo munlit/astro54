@@ -356,7 +356,7 @@ git add . && git commit -m "Customized (tsconfig astro.config #009)"
 	* Components/Header
 
 ````
-git remote add origin https://github.com/munlit/astro54.git
+git remote add origin https://github.com/munlit/plugged54.git
 
 git add . && git commit -m "Remote (github)"
 ````

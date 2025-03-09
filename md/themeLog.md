@@ -16,6 +16,8 @@
   * utils
 
 ````
+git remote add origin https://github.com/munlit/plugged54.git
+
 git add . && git commit -m "Include (dir #010)"
 ````
 
