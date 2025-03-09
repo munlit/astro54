@@ -2,7 +2,7 @@
 ### **Tailwind - Typescript - Pnpm - font Urbanist**
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
-<!--  Estructura ─────────────────── -->
+<!--  Include ──────────────────────── -->
 
 ## Include
 
@@ -20,16 +20,30 @@ git add . && git commit -m "Include (dir #010)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
-<!--  Theme ──────────────────────── -->
+<!--  Data ────────────────────────── -->
 
 ## Data
 
-- Copiamos archivosen la carpeta data
+- Copiamos archivos en la carpeta data
 
 - Realizamos correcciones de idioma
 
 ````
 git add . && git commit -m "Insert (data files #0011)"
+````
+
+<!--  // ─────────────────────────────────────────────────────────────── -->
+<!--  Content ────────────────────────── -->
+
+## Content
+
+- Copiamos archivos en la carpeta content
+
+- Realizamos correcciones de idioma
+
+````
+git add . && git commit -m "Insert (Content files #0012)"
+````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
 <!--  Theme ──────────────────────── -->
