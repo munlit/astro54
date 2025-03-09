@@ -158,13 +158,14 @@ pnpm add typescript
 *pnpm add @typescript-eslint/parser
 pnpm add @typescript-eslint/scope-manager
 
-pnpm add eslint-plugin-astro eslint
 
-pnpm add eslint-plugin-jsx-a11y
+pnpm add -D eslint-plugin-astro eslint
 
-pnpm add prettier-plugin-astro prettier
+pnpm add -D eslint-plugin-jsx-a11y
 
-pnpm add sharp sass
+pnpm add -D prettier-plugin-astro prettier
+
+pnpm add -D sharp sass
 ````
 
 ````
@@ -183,17 +184,17 @@ pnpm add @tailwindcss/forms @tailwindcss/typography @fontsource-variable/inter @
 ````
 
 ````
-pnpm add @tailwindcss/forms
+pnpm add -D @tailwindcss/forms
 
-pnpm add @tailwindcss/typography
+pnpm add -D @tailwindcss/typography
 
-pnpm add @fontsource-variable/inter
+pnpm add -D @fontsource-variable/inter
 
-pnpm add @fontsource-variable/urbanist
+pnpm add -D @fontsource-variable/urbanist
 
-pnpm add @fontsource-variable/dm-sans
+pnpm add -D @fontsource-variable/dm-sans
 
-pnpm add @fontsource-variable/outfit
+pnpm add -D @fontsource-variable/outfit
 ````
 
 ````
@@ -215,21 +216,34 @@ pnpm add prettier-plugin-tailwindcss html-minifier-terser clipboard globby gsap 
 ````
 
 ````
-pnpm add @preline/accordion
-pnpm add @preline/collapse
-pnpm add @preline/dropdown
-pnpm add @preline/overlay
-pnpm add @preline/tabs
-pnpm add preline
+pnpm add -D @preline/accordion
 
-pnpm add prettier-plugin-tailwindcss
-pnpm add html-minifier-terser
-pnpm add clipboard
-pnpm add globby
-pnpm add gsap
-pnpm add lenis
-pnpm add rimraf
-pnpm add sharp-ico
+pnpm add -D @preline/collapse
+
+pnpm add -D @preline/dropdown
+
+pnpm add -D @preline/overlay
+
+pnpm add -D @preline/tabs
+
+pnpm add -D preline
+
+
+pnpm add -D prettier-plugin-tailwindcss
+
+pnpm add -D html-minifier-terser
+
+pnpm add -D clipboard
+
+pnpm add -D globby
+
+pnpm add -D gsap
+
+pnpm add -D lenis
+
+pnpm add -D rimraf
+
+pnpm add -D sharp-ico
 ````
 
 ````
