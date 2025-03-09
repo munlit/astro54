@@ -362,16 +362,3 @@ git add . && git commit -m "Remote (github)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->
-<!--  Funcional ─────────────────── -->
-
-## Funcional
-
-- Generamos extenciones de los archivos(.astro)
-- Modificamos archivos
-- Correjimos hasta tener una landing funcional
-
-````
-git add . && git commit -m "Update (functional)"
-````
-
-<!--  // ─────────────────────────────────────────────────────────────── -->
