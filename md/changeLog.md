@@ -91,7 +91,7 @@ git add . && git commit -m "Require (react #003)"
 ````
 pnpm astro add tailwind
 *pnpm dlx astro add tailwind
-pnpm add @tailwindcss/vite@^4.0.7 tailwindcss@^4.0.7
+pnpm add @tailwindcss/vite@^4.0.12 tailwindcss@^4.0.12 
 
 *pnpm dlx tailwindcss init
 ````
