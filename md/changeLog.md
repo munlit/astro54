@@ -64,7 +64,7 @@ git add . && git commit -m "Add (md #002)"
 ````
 pnpm astro add react
 *pnpm dlx astro add react
-pnpm add @astrojs/react@^4.2.0 react@^19.0.0 react-dom@^19.0.0 @types/react@^19.0.10 @types/react-dom@^19.0.4
+pnpm add @astrojs/react@^4.2.1 @types/react@^19.0.10 @types/react-dom@^19.0.4 react@^19.0.0 react-dom@^19.0.0
 ````
 
 ````
