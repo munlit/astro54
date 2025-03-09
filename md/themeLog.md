@@ -22,6 +22,18 @@ git add . && git commit -m "Include (dir #010)"
 <!--  // ─────────────────────────────────────────────────────────────── -->
 <!--  Theme ──────────────────────── -->
 
+## Data
+
+- Copiamos archivosen la carpeta data
+
+- Realizamos correcciones de idioma
+
+````
+git add . && git commit -m "Insert (data files #0011)"
+
+<!--  // ─────────────────────────────────────────────────────────────── -->
+<!--  Theme ──────────────────────── -->
+
 ## Theme
 
 - Copiamos segmentos de codigo en los archivos de destino
@@ -29,7 +41,7 @@ git add . && git commit -m "Include (dir #010)"
 - Realizamos correcciones menores para igualar la visualizacion
 
 ````
-git commit -m "[Theme] (#0011)"
+git add . && git commit -m "[Theme] (#0012)"
 ````
 
 <!--  // ─────────────────────────────────────────────────────────────── -->

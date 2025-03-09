@@ -1,0 +1,22 @@
+[
+	{
+		"heading":	"Equipos Dedicados",
+		"content":	"Benefíciate de nuestros equipos comprometidos que aseguran que tu éxito sea personal. Cuenta con orientación experta y resultados excepcionales durante todo el recorrido de tu proyecto.",
+		"svg":		"groups"
+	},
+	{
+		"heading":	"Simplicidad y Asequibilidad", 
+		"content":	"Encuentra soluciones fáciles de usar y asequibles con la línea de herramientas y equipos de ScrewFast. Nuestros productos hacen que la adquisición sea simple y mantienen los proyectos dentro del presupuesto.",
+		"svg":		"verified"
+	},
+	{
+		"heading":	"Documentación Completa",
+		"content":	"Integra con facilidad utilizando las guías y bibliotecas exhaustivas de ScrewFast. Logra una adopción perfecta del producto con nuestra suite completa de documentación diseñada para tu éxito.",
+		"svg":		"books"
+	},
+	{
+		"heading":	"Diseño Centrado en el Usuario",
+		"content":	"Experimenta la diferencia con el diseño centrado en el usuario de ScrewFast — donde la funcionalidad se encuentra con la practicidad para una experiencia de trabajo mejorada.",
+		"svg":		"frame"
+	}
+]
